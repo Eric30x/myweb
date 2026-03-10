@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>学生成绩管理系统</title>
@@ -121,7 +120,7 @@
     </div>
 
     <script>
-        const API_BASE = 'http://100.67.84.127:8080/api/students';
+        const API_BASE = 'https://unconfirmative-herbert-brutishly.ngrok-free.dev/api/students';
         
         // 获取所有学生
         async function fetchStudents() {
@@ -303,6 +302,4 @@
         setInterval(fetchStudents, 30000);
     </script>
 </body>
-
 </html>
-
